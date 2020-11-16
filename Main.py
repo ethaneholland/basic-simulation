@@ -14,6 +14,7 @@ GRAY_GREEN = (170, 189, 170)
 
 def test():
     print("oh")
+    print("oh oh no")
 
 
 class Scene:
