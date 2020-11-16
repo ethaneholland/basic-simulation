@@ -89,17 +89,12 @@ class Main(GameState):
         elif event.type == pygame.MOUSEBUTTONUP:
             mouse.mouse_up()
 
-class GameSetup(GameState):
-    
 class Game(GameState):
     def __init__(self):
         super().__init__()
         self.allSprites = pygame.sprite.Group(
             sp.ButtonSprite(50, 50, 100, 50, "MAINMENU", pygame.Color('steelblue1'), BLACK, text="Back")
             )
-        for ()
-        self.allSprites.add()
-
 
     def update(self):
         mouse.detect_collision(self, self.allSprites)
@@ -143,7 +138,7 @@ class Confirm(GameState):
 class GameLogic:
     def __init__(self):
         super().__init__()
-        all_sprites
+
 def redraw_screen(sprites):
     sprites.update()
     sprites.draw(screen)
