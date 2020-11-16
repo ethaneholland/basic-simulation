@@ -14,10 +14,6 @@ LIGHT_GREEN = (0, 148, 50)
 LIGHT_GREEN2 = (0, 148, 50)
 
 
-def test():
-    print("ah")
-
-
 class MouseSprite(pygame.sprite.Sprite):
     def __init__(self, x, y):
         super().__init__()

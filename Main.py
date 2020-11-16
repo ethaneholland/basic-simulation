@@ -12,10 +12,6 @@ LIGHT_GREEN = (0, 148, 50)
 LIGHT_GREEN2 = (0, 148, 50)
 GRAY_GREEN = (170, 189, 170)
 
-def test():
-    print("oh")
-    print("oh oh no no no no")
-
 
 class Scene:
     def __init__(self, screen, states, start_state):
